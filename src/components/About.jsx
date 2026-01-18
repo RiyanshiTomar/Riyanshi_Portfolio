@@ -47,11 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript and
-        Python, and expertise in frameworks like React, Node.js,
-        Three.js, Exress.js, MongoDB. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a passionate undergraduate at IIT Madras, pursuing Data Science and Artificial Intelligence, with a strong interest in building intelligent, real-world systems.
+        I have a solid foundation in C, C++, Java (OOP), Python, and Data Structures & Algorithms,
+        along with hands-on experience in data analytics, data science, and full-stack development.
+        I am particularly enthusiastic about integrating Generative AI into full-stack applications, combining modern AI/ML techniques with scalable software engineering.
+        Actively working in the AI/ML domain, I continuously explore and implement emerging technologies to solve complex problems.
+        I am also a committed open-source contributor, contributing to several well-maintained and large repositories, which has strengthened my collaboration skills, code quality, and experience with production-grade systems.
+        I enjoy learning, building, and contributing to impactful technology.
+
       </motion.p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center  gap-10">

@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "MOHAMMED MUSTAQEEM",
+          to_name: "Riyanshi Tomar",
           from_email: form.email,
-          to_email: "mustaqeemcode@gmail.com",
+          to_email: "riyanshitomar28@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
@@ -89,10 +89,11 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your good name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              required
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>Your Email</span>
             <input
               type='email'
               name='email'
@@ -100,6 +101,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your web address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              required
             />
           </label>
           <label className='flex flex-col'>
@@ -111,6 +113,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              required
             />
           </label>
 

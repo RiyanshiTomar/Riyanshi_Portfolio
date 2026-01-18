@@ -14,17 +14,15 @@ import {
   mongodb,
   git,
   figma,
-  mui,
   express,
   mysql,
   github,
-  Three3js,
   aws,
   project2,
   project1,
   project3,
 } from "../assets";
-import tekisky from '../assets/company/tekisky.png';
+import pwioi from '../assets/company/pwioi.png';
 // import project2 from '../assets/project2.png'
 
 export const navLinks = [
@@ -48,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Data Analytics",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Data Science (ML) & Open Source Contributor",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "AI Application Developer",
     icon: creator,
   },
 ];
@@ -104,10 +102,6 @@ const technologies = [
     icon: mysql,
   },
   {
-    name: "Three JS",
-    icon: Three3js,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -120,10 +114,6 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "mui",
-    icon: mui,
-  },
-  {
     name: "aws",
     icon: aws,
   },
@@ -131,16 +121,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
+    title: "AI Application Developer and Data Scientist",
     company_name: "Tekisky",
-    icon: tekisky,
+    icon: pwioi,
     iconBg: "#383E56",
     date: "Jan 2025",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
+      "Developing and maintaining web applications using MERN technologies along integration with GenAI.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing constructive feedback to other developers.Also contribute in open source",
+      "I also make AI and ML Models and implement chatbot, RAG and Langchain Frameworks."
     ],
   },
 ];
@@ -175,63 +166,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: "GareXpert",
+    name: "VSCode AI Powered Code Review Extension",
     description:
-      "Web-based platform that enables users to browse, purchase, and manage auto parts from various suppliers, ensuring a seamless and reliable shopping experience.",
+      "AI-Powered Code Review: Detects bugs, security issues, and performance problems in your Visual Studio Code.",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "GSAP",
+        name: "Mistral API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Extension Marketplace",
         color: "orange-text-gradient",
       },
       {
-        name: "EmailJS",
+        name: "VSIX",
         color: "-text-gradient",
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/RiyanshiTomar/Code-Reviewer-Extension-for-VS-Code",
   },
   {
-    name: "TekiskyMart",
+    name: "Cursor like AI",
     description:
-      "An eCommerce platform offering a seamless shopping experience with a wide range of products, secure payments, and fast delivery.",
+      "An intelligent Node.js CLI tool that generates beautiful, modern, production-ready websites using local LLM (Ollama). Ask in plain English, get a complete website in seconds!",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
         name: "Node.js",
         color: "green-text-gradient",
       },
+      
       {
-        name: "Express",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "MongoDB",
+        name: "OLLMA Setup",
         color: "green-text-gradient",
       },
       {
-        name: "taildwind",
+        name: "Mistral API",
         color: "orange-text-gradient",
       },
     ],
     image: project1,
-    source_code_link: "https://tekiskymart.com/",
+    source_code_link: "https://github.com/RiyanshiTomar/Apna_Cursor_LLama_and_Mistral",
   },
   {
-    name: "Softcadia",
+    name: "RAG Model",
     description:
-      "A job portal connecting job seekers with employers, offering seamless job search, application tracking, and recruitment solutions.",
+      "A Retrieval-Augmented Generation (RAG) chatbot built with LangChain.js that enables intelligent conversations with your PDF documents. Supports both Google Gemini and local Ollama models for flexible deployment.",
     tags: [
       {
         name: "react",
@@ -247,7 +235,7 @@ const projects = [
       },
     ],
     image: project3,
-    source_code_link: "https://softcadia.tekisky.com/",
+    source_code_link: "https://github.com/RiyanshiTomar/RAG_Context",
   },
 ];
 
