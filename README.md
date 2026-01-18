@@ -1,7 +1,7 @@
 
-# Mustaqeem's Portfolio
+# Riyanshi's Portfolio
 
-A modern, responsive portfolio website built using React, Three.js, Tailwind CSS, and Framer Motion. This project showcases my skills, projects, and experience as a full-stack developer.
+A modern, responsive portfolio website built using React, Three.js, Tailwind CSS, and Framer Motion. This project showcases my skills, projects, and experience as a Full-Stack Developer, AI Application Developer, and Data Science enthusiast.
 
 ---
 
@@ -14,7 +14,6 @@ A modern, responsive portfolio website built using React, Three.js, Tailwind CSS
 - [Usage](#usage)
 - [Components Overview](#components-overview)
 - [Environment Variables](#environment-variables)
-- [License](#license)
 
 ---
 
@@ -42,7 +41,7 @@ A modern, responsive portfolio website built using React, Three.js, Tailwind CSS
 ## Project Structure
 
 ```plaintext
-e:\Mustaqeem's-Portfolio
+Riyanshi-Portfolio/
 ├── public/                # Static assets
 ├── src/
 │   ├── assets/            # Images and icons
@@ -73,7 +72,7 @@ e:\Mustaqeem's-Portfolio
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Mohammed-mustaqeem/Mustaqeem-Portfolio.git
+   git clone https://github.com/RiyanshiTomar/Riyanshi_Portfolio.git
    ```
 
 2. Install dependencies:
@@ -86,7 +85,7 @@ e:\Mustaqeem's-Portfolio
    npm run dev
    ```
 
-4. Open the app in your browser at `http://localhost:3000`.
+4. Open the app in your browser at `http://localhost:5173`.
 
 ---
 
