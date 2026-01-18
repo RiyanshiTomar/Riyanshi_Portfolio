@@ -152,19 +152,6 @@ Replace `your_service_id`, `your_template_id`, and `your_public_key` with your E
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
-This README.md file provides a detailed overview of your project, including its features, technologies, structure, and usage instructions. You can customize it further based on your specific requirements.
-
-Mohammed-mustaqeem: update docs all components in readme.md file 
-
-GitHub Copilot: Here’s an updated README.md file with detailed documentation for all components in your project:
-
-```markdown
-# Mustaqeem's Portfolio
-
-A modern, responsive portfolio website built using React, Three.js, Tailwind CSS, and Framer Motion. This project showcases my skills, projects, and experience as a full-stack developer.
-
----
-
 ## Table of Contents
 
 - [Features](#features)
@@ -202,7 +189,7 @@ A modern, responsive portfolio website built using React, Three.js, Tailwind CSS
 ## Project Structure
 
 ```plaintext
-e:\Mustaqeem's-Portfolio
+e:\Riyanshi-Portfolio
 ├── public/                # Static assets
 ├── src/
 │   ├── assets/            # Images and icons
@@ -233,8 +220,8 @@ e:\Mustaqeem's-Portfolio
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mustaqeem-portfolio.git
-   cd mustaqeem-portfolio
+   git clone https://github.com/RiyanshiTomar/Riyanshi_Portfolio
+   cd Riyanshi-portfolio
    ```
 
 2. Install dependencies:
