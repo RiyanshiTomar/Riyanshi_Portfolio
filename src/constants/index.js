@@ -139,7 +139,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Riyanshi proved me wrong.",
     name: "Rahul Iyer",
     designation: "Export AutoParts",
     company: "GearXpert",
@@ -148,7 +148,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Nice website design of portfolio.",
     name: "Abdul Raheman",
     designation: "Ecommerce Business",
     company: "justbuyz",
@@ -156,7 +156,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Whenever you want to integrate AI Chatbots in your web apps.You can contact to her.",
     name: "Kavita Nair",
     designation: "CTO",
     company: "456 Enterprises",
